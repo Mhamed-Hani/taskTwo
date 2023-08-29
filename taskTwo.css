@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+}
+.box {
+    padding: 20px 40px;
+    margin: 30px auto;
+    width: 300px;
+    height: 320px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: white;
+}
+.box img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.box h2 {
+    margin: 15px auto;
+    text-align: center;
+}
+.box a {
+    margin: 15px auto;
+    display: block;
+    text-decoration: none;
+    background-color: rgb(131, 82, 17);
+    width: 150px;
+    padding: 5px;
+    color: white;
+}
+.box del {
+    color: #ccc;
+}
+.box:hover {
+    background-color: white;
+    color: black;
+}
+.box a:hover {
+    background-color: rgb(200, 136, 51);
+}
+.box h2:hover {
+    color: rgb(131, 82, 17);
+}
+.box p:hover {
+    color: rgb(131, 82, 17);
+}
+.change {
+    color: white;
+    padding: 5px;
+    background-color: rgb(131, 82, 17);
+    margin: 30px 0;
+}
+.square {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(131, 82, 17);
+}
+.square:hover {
+    border-radius: 50%;
+    background-color: rgb(200, 136, 51);
+}
+.footer {
+    background-color: rgb(131, 82, 17);
+    color: white;
+}
+.footer img {
+    width: 220px;
+    height: 150px;
+}
+.footer h2 {
+    margin: 30px 0;
+}
+.footer p {
+    text-align: center;
+    padding-bottom: 20px;
+    color: #eee;
+}
